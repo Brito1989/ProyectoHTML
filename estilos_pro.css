@@ -1,0 +1,415 @@
+#contenedor {
+width: 960px;
+/*border: 1px solid green; */
+margin: 0px auto; /* centrar el contenedor */
+/*background: -moz-linear-gradient(top, #719500 110%, #346500 0%);*/
+padding:30px;
+background-color:white;
+height:1680px;
+}
+
+nav{
+	margin-bottom: -10px;
+	border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+nav#top_menu {
+/*border: 1px solid #fff; */
+height: 126px;
+background: #c8c8c8;
+padding: 0 20px 0 10px;
+background: linear-gradient(top, #c8c8c8 0%,#d0d0d0 50%,#c8c8c8 50%,#d0d0d0 100%);
+margin-top: -10px;
+background-image: url('fond.avif');
+background-size: cover;
+}
+
+.lista_menu{
+float: left;
+list-style-type: none;
+width: 16%;
+position:relative;
+}
+
+nav#top_menu ul li a.links_menus { 
+display: block;
+margin: 3px;
+padding:8px;
+font: normal 18px Bauhaus93Regular, arial;
+color: #199ea0;
+transition:transform 0.3s ease; 
+border-radius: 10px;
+text-decoration: none; /* Elimina el subrayado de los enlaces */
+
+}
+nav#top_menu ul li a.links_menus:hover {
+    transform: scale(1.1);
+	background-color: #5ee5e7;
+}
+
+nav#top-menu.top-buscar {
+width: 190px;
+float: right;
+padding-top: 32px;
+}
+
+/* estilos del formulario */
+
+nav#top_menu.top-buscar #busquedaform {
+width: 170px;
+background: #C0C0C0;
+padding: 7px;
+/*border: 1px solid #d6d6d5; */
+position: relative;
+transition: transform 0.3s ease;
+}
+
+
+#busquedaform:hover{
+	transform:scale(1.01);
+}
+/* Texto: Buscar... */
+
+nav#top_menu.top-buscar{
+border: none;
+background: transparent;
+color: white;
+}
+
+/* boton Go */
+
+nav#top_menu.top-buscar #botonGo {
+width: 40px;
+height: 28px;
+position: absolute;
+right: 2px;
+top: 2px;
+/*border: solid 1px #afafaf; */
+cursor: pointer;
+font: bold normal 14px Arial, Helvetica, sans-serif;
+color: #6d9110;
+background: #eeeeee;
+border-radius: 4px;
+}
+
+#cabecera { 
+/*border: 1px solid; */
+margin-top: 10px;
+margin-bottom: -10px;
+background-image: url('fonside.png');
+background-size: cover;	
+}
+
+#logo {
+height: 112px;
+width: 292px;
+/*border: 1px solid; */
+float:letf;
+margin-top: 10px;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 20px;
+}
+
+#link_videos{
+height: 111px;
+width: 228px;
+margin: 10px 10px 20px 40px;
+}
+
+#video {
+width: 422px;
+height: 250px;
+/*border: 1px solid; */
+float: right;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 20px;
+margin-left: 10px;
+}
+
+#content{
+/*border: 1px solid;*/
+/*margin: 0.15px;*/
+background-image: url('fonside.png');
+background-size: cover;	
+}
+
+#contenido_principal{
+width: 100%;
+height: 1170px;
+/*border: 1px solid; */
+
+}
+
+#publicidad { 
+width: 530px;
+height: 320px;
+/*border: 1px solid;*/
+float: left;
+margin-top: 15px;
+margin-right: 0px;
+margin-bottom: 15px;
+margin-left: 40px;
+}
+
+#sidebar {
+width: 210px;
+height: 1000px;
+border: 3px solid; 
+float: right;
+margin-top: 15px;
+margin-right: 40px;
+margin-bottom: 15px;
+margin-left: 0px;
+background-color:#0eafaa;
+color: #ddfafa;
+border-radius:10px;
+overflow: auto;
+}
+
+#pie { 
+width: 100%;
+height: 71px;
+float: left;
+margin:0px;
+margin-bottom:60px;
+padding: 0px 0px;
+clear: both;
+border: 1px solid black; 
+position: relative;
+background: -moz-linear-gradient(top, #719500 0%, #346500 100%);
+border-bottom-left-radius: 10px; 
+border-bottom-right-radius: 10px;
+}
+
+
+/*Imagenes*/
+
+
+
+#logo img {
+    width: 200px;
+    height:  100px;
+}
+
+#video video {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+	border-radius:8px;
+}
+
+#botonGo{
+	background-color:#189aee;
+	border-radius: 5px;
+	border-color: #189aee;
+	color: white;
+		
+}
+#botonGo:hover{
+background-color: #1966a0;}
+
+#link_videos img{
+	width: 310px;
+    height: 120px;
+	transition: transform 0.3s ease;
+}
+#link_videos img:hover{
+transform: scale(1.1);}
+
+
+#publi {
+	width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}	
+
+#eltext{
+	 padding: 20px;
+}
+
+#texto{
+	border: 2px solid white;
+	border-radius:10px;
+	background-color:#33ded9;
+	padding: 10px;
+	margin: 5px;
+	color: #034a4a;
+	transition: transform 0.3s ease;
+}
+
+#texto:hover{
+transform: scale(0.9);
+}
+
+#top-canciones {
+width: 550px;
+height: 370px;
+/*border: 1px solid;*/
+float: left;
+margin: 15px 0px 15px 40px;
+background-color:#0eafaa;
+color: #ddfafa;
+border-radius:10px;
+}
+
+#top{
+padding:5px;
+border-radius:10px;
+background-color:#33ded9;
+color: white;
+transition: transform 0.3s ease;
+border-top-left-radius: 10px; 
+border-top-right-radius: 10px;
+border-bottom-left-radius:0px;
+border-bottom-right-radius:0px;
+
+}
+
+body{
+background-image: url('fonside.png');
+background-size: cover;
+}
+
+/* En esta parte se hace la animacion de las imagenes*/
+.slider {
+overflow: hidden; /*este hace que las imagenes no se salgan de su espacio que tiene por determinado y se oculten las demas imagenes*/
+width: 530px;
+height: 320px;
+border-radius:10px;
+}
+
+.slider-track {
+  border-radius:10px;
+	display: flex; /*este hace que se alineen en una sola linea */
+  animation: mover 10s linear infinite; /*aplica una animación la animacion pero hay que
+  acordarse que el nombre de mover debe coindicir con el keyframes*/
+}
+
+img {
+ width: 530px;
+height: 350px;
+}
+@keyframes mover {
+  to {
+    transform: translateX(-1200px); /*aqui ya se hace como tal la animacion y dice que se van a recorrer las 
+	                                  imagenes 1200 pixeles a la izquierda*/
+  }
+} 
+
+#bloque{
+	background-color:white;
+	height: 30000px;
+	width:100%;
+}
+
+#actuales-populares {
+width: 530px;
+height: 37 	0px;
+/*border: 1px solid;*/
+float: left;
+margin: 15px 0px 15px 40px;
+background-color:#0eafaa;
+color: #ddfafa;
+border-radius:10px;
+}
+
+#top-canciones img {
+width: 120px;
+height: 90px;
+float: left;
+margin-left:180px;
+border-radius:5px;
+}
+
+#actuales-populares img{
+width: 120px;
+height: 90px;
+float: left;
+margin-left:180px;
+border-radius:5px;
+}
+
+.btn {
+	margin-top:10px;
+	text-align:center;
+    display: block;
+    margin-left: 195px; 
+    padding: 10px;
+    width: fit-content; 
+    text-decoration: none; 
+	background-color: #078b8d;
+	color: white;
+	border-radius:5px;
+	margin-bottom:20px;
+}
+
+.btn:hover {
+    background-color: #0ae2e5;
+}
+
+
+/* Rock, Pop, Rap, Salsa, Otras */
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #e0e0e0;
+	  background-color: #25ccce;
+	  color:white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+    }
+
+    #cont1 {
+      overflow: auto;
+      margin: 20px 200px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    section h2 {
+      color: #c62828;
+    }
+    footer {
+      text-align: center;
+      background-color: #111;
+      color: white;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+
+    .img {
+      border-radius: 10px;
+      margin-top: 0px;
+	  width: 350px;
+	  height: 250px;
+    }
+
+    .imagen {
+      text-align: center;
+      margin: 20px 0;
+    }
+	    .img1 {
+      border-radius: 10px;
+      margin-top: 0px;
+	  width: 350px;
+	  height: 250px;
+	  margin-left:400px;
+    }
+	
